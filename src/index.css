@@ -1,13 +1,108 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #343434;
+    -webkit-font-smoothing: antialiased;
+    background-color: #eeeae1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #515369;
+    background-color: #eeeae1;
+}
+
+.header__logo {
+    margin-left: 30px;
+    color: #343434;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 70px;
+}
+
+.nav__link {
+    margin-left: 50px;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.1s linear;
+    color: #6c7279;
+}
+
+.intro {
+    display: flex;
+    background-color: #eeeae1;
+}
+
+.intro_text_container {
+    width: 50%;
+    border-right: 1px solid #515369;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343434;
+}
+
+.intro_text {
+    width: 400px;
+    margin: 0;
+}
+
+.intro_photo {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.intro_img {
+    height: 500px;
+}
+
+.introduce {
+    background-color: #343434;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduce_text {
+    width: 700px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* "Times New Roman", Times, serif */
