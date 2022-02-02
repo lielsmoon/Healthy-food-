@@ -1,0 +1,36 @@
+.navbar__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #515369;
+    background-color: #eeeae1;
+}
+
+.navbar__logo {
+    margin-left: 30px;
+    color: #343434;
+    font-family: "Cinzel", serif;
+    font-size: 26px;
+}
+
+.nav {
+    display: flex;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 70px;
+}
+
+.nav__link {
+    margin-left: 50px;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.1s linear;
+    color: #6c7279;
+}
+
+.nav__link:hover {
+    color: black;
+    transition: 1s;
+    text-decoration: underline;
+}

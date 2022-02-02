@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    background-color: #eeeae1;
+}
+
+.header__text_container {
+    width: 50%;
+    border-right: 1px solid #515369;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #343434;
+}
+
+.header__text {
+    font-family: "Source Serif Pro", serif;
+    font-style: italic;
+    font-weight: 600;
+    width: 500px;
+    margin: 0;
+}
+
+.intro__img_container {
+    width: 50%;
+    height: 500px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.intro__img {
+    height: 500px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import API from "../api";
+import API from "../../../api";
+import "./usefulHints.css";
 const UsefulHints = () => {
     const [hints] = useState(API.hints.fetchAll());
     return (
@@ -21,7 +22,7 @@ const UsefulHints = () => {
                             </div>
                             <div className="hint__text">
                                 <div className="hint__title">{hint.title}</div>
-                                <div className="hint_description">
+                                <div className="hint__description">
                                     {hint.description}
                                 </div>
                             </div>

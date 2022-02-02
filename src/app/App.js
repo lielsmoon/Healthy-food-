@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import NavBar from "./components/navBar";
+import NavBar from "./components/navBar/navBar";
 import MainPage from "./layouts/mainPage";
 import CategoriesPage from "./layouts/categoriesPage";
-import AboutMePAge from "./layouts/aboutMePage";
+import AboutMe from "./layouts/aboutMe";
 import Login from "./layouts/login";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
             <NavBar />
             <Switch>
                 <Route path="/login" component={Login} />
-                <Route path="/aboutme" component={AboutMePAge} />
+                <Route path="/aboutme" component={AboutMe} />
                 <Route path="/categories" component={CategoriesPage} />
                 <Route path="/" component={MainPage} />
             </Switch>
