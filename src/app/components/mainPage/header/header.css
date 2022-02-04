@@ -14,8 +14,9 @@
 }
 
 .header__text {
-    font-family: "Source Serif Pro", serif;
-    font-style: italic;
+    font-family: "Fjalla One";
+    /* font-family: "Source Serif Pro", serif; */
+    /* font-style: italic; */
     font-weight: 600;
     width: 500px;
     margin: 0;

@@ -6,7 +6,7 @@
     text-transform: uppercase;
     font-size: 70px;
     letter-spacing: 0.085em;
-    margin: 4.5rem 0 1rem;
+    padding-top: 90px;
     font-family: "Fjalla One";
 }
 
@@ -31,7 +31,8 @@
 .about__me_page {
     max-width: 980px;
     padding: 0 20px;
-    margin: 75px auto 70px;
+    margin: 75px auto 0px;
+    padding-bottom: 70px;
 }
 
 .about__me_page a {
